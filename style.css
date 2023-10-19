@@ -1,0 +1,166 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: ye; */
+}
+.header{
+    /* margin-bottom: 2vh; */
+}
+.wrapper{
+    height: 95vh;
+    width: 35vw;
+    background-color: rgb(231, 231, 231);
+    border-radius: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 80vh;
+    width: 32vw;
+    background-color: #fff;
+    border-radius: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerbox{
+    height: 74vh;
+    width: 29vw;
+    background-color: #fff;
+    border: 1px solid rgba(174, 174, 174, 0.528);
+}
+.boxHeader{
+    height: 9vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    /* background-color: green; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.boxCol{
+    background-color: rgba(208, 208, 208, 0.364);
+}
+.boxBody{
+    height: 35vh;
+    /* background-color: red; */
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.inputWrapper{
+    height: 7vh;
+    width: 90%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 0.5vh;
+    border: 1px solid rgb(127, 125, 125);
+}
+input{
+    height: 60%;
+    width: 80%;
+    font-size: 2.5vh;
+    border: none;
+}
+.options{
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.option1{
+    display: flex;
+    /* background-color: blue; */
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vw;
+}
+.option2{
+    margin-right: 1vw;
+}
+.signIn{
+    height: 6vh;
+    font-size: 3vh;
+    color: white;
+    background-color: green;
+}
+.or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 80%; */
+}
+hr{
+    width: 25vh;
+}
+.signInOptions{
+    height: 17vh;
+    width: 90%;
+    margin-top: 1vh;
+    /* background-color: rebeccapurple; */
+    margin-left: 3vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.row1{
+    height: fit-content;
+    width: 100%;
+    /* background-color: yellow;   */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+}
+.optionBox{
+    height: 6vh;
+    width: 40%;
+    background-color: red;
+    border-radius: 0.5vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.imageBox{
+    height: 5vh;
+    width: 6vh;
+    background-color: blue;
+}
+.boxHr{
+    height: 10vh;
+    width: 0vh;
+}
+.footer{
+    margin-left: 9vw;
+    margin-top: 2vh;
+    color: green;
+}
+.box01{
+    background-color: #dd4b39;
+}
+.box02{
+    background-color: #3b5998;
+}
+.box03{
+    background-color: #1890ff;;
+}
+.box04{
+    background-color: black;
+}
